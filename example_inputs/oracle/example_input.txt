@@ -1,15 +1,15 @@
 Nome            Nulo?    Tipo         
 --------------- -------- ------------ 
-IDENT_NBM       NOT NULL NUMBER(12)   
-COD_NBM                  VARCHAR2(10) 
-VALID_NBM                DATE         
-DESCRICAO                VARCHAR2(50) 
-IND_TRIB_NBM             CHAR(1)      
-ALIQ_IPI                 NUMBER(7,4)  
-IDENT_NOTA_TIPI          NUMBER(12)   
-NUM_PROCESSO             NUMBER(12)   
-IND_GRAVACAO             CHAR(1)      
-IDENT_MEDIDA             NUMBER(12)   
-GRUPO_APURAC             VARCHAR2(5)  
-IDENT_DARF               NUMBER(12)   
-IND_INCIDENCIA           CHAR(1)
+COL1       NOT NULL NUMBER(12)   
+COL2                  VARCHAR2(10) 
+COL3                DATE         
+COL4                VARCHAR2(50) 
+COL5             CHAR(1)      
+COL6                 NUMBER(7,4)  
+COL7          NUMBER(12)   
+COL8             NUMBER(12)   
+COL9             CHAR(1)      
+COL10             NUMBER(12)   
+COL11             VARCHAR2(5)  
+COL12               NUMBER(12)   
+COL13           CHAR(1)

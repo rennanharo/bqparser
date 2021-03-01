@@ -1,10 +1,10 @@
 Nome              Nulo?    Tipo         
 ----------------- -------- ------------ 
-IDENT_ESTADO      NOT NULL NUMBER(12)   
-COD_MUNICIPIO     NOT NULL NUMBER(5)    
-DESCRICAO                  VARCHAR2(50) 
-COD_UF                     NUMBER(2)    
-COD_MUN_ESTADO             VARCHAR2(6)  
-COD_AREA_LIVR_COM          VARCHAR2(10) 
-COD_MUNIC_DIPJ             NUMBER(4)    
-DESCRICAO_IBGE             VARCHAR2(50)
+COL1      NOT NULL NUMBER(12)   
+COL2     NOT NULL NUMBER(5)    
+COL3                  VARCHAR2(50) 
+COL4                     NUMBER(2)    
+COL5             VARCHAR2(6)  
+COL6          VARCHAR2(10) 
+COL7             NUMBER(4)    
+COL8             VARCHAR2(50)

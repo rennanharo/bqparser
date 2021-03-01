@@ -17,4 +17,4 @@ BQ Parser is a tool developed to help create BigQuery JSON shemas based on other
   - path_to_source: The path to the source schema file to convert from
     - For specifying a directory contaning schema files, use de `-d` flag
   - source_db: Which RDBMS schema you're converting from
-    - Supported source RDBMS: [Check here](supported-rdbms)
+    - Supported source RDBMS: [Check supported session](supported-rdbms)

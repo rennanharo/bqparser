@@ -1,80 +1,15 @@
 [
-  {
-    "name": "IDENT_NBM",
-    "description": "",
-    "mode": "REQUIRED",
-    "type": "NUMERIC"
-  },
-  {
-    "name": "COD_NBM",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "STRING"
-  },
-  {
-    "name": "VALID_NBM",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "DATE"
-  },
-  {
-    "name": "DESCRICAO",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "STRING"
-  },
-  {
-    "name": "IND_TRIB_NBM",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "STRING"
-  },
-  {
-    "name": "ALIQ_IPI",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "NUMERIC"
-  },
-  {
-    "name": "IDENT_NOTA_TIPI",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "NUMERIC"
-  },
-  {
-    "name": "NUM_PROCESSO",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "NUMERIC"
-  },
-  {
-    "name": "IND_GRAVACAO",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "STRING"
-  },
-  {
-    "name": "IDENT_MEDIDA",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "NUMERIC"
-  },
-  {
-    "name": "GRUPO_APURAC",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "STRING"
-  },
-  {
-    "name": "IDENT_DARF",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "NUMERIC"
-  },
-  {
-    "name": "IND_INCIDENCIA",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "STRING"
-  }
+  { "name": "COL1", "description": "", "mode": "REQUIRED", "type": "NUMERIC" },
+  { "name": "COL2", "description": "", "mode": "NULLABLE", "type": "STRING" },
+  { "name": "COL3", "description": "", "mode": "NULLABLE", "type": "DATE" },
+  { "name": "COL4", "description": "", "mode": "NULLABLE", "type": "STRING" },
+  { "name": "COL5", "description": "", "mode": "NULLABLE", "type": "STRING" },
+  { "name": "COL6", "description": "", "mode": "NULLABLE", "type": "NUMERIC" },
+  { "name": "COL7", "description": "", "mode": "NULLABLE", "type": "NUMERIC" },
+  { "name": "COL8", "description": "", "mode": "NULLABLE", "type": "NUMERIC" },
+  { "name": "COL9", "description": "", "mode": "NULLABLE", "type": "STRING" },
+  { "name": "COL10", "description": "", "mode": "NULLABLE", "type": "NUMERIC" },
+  { "name": "COL11", "description": "", "mode": "NULLABLE", "type": "STRING" },
+  { "name": "COL12", "description": "", "mode": "NULLABLE", "type": "NUMERIC" },
+  { "name": "COL13", "description": "", "mode": "NULLABLE", "type": "STRING" }
 ]
