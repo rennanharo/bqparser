@@ -163,7 +163,7 @@ if args.source_db == "Oracle":
             for row in result
         ]
 
-        with open(f"example_outputs/{filename}.json", "w+") as file1:
+        with open(f"outputs/{filename}.json", "w+") as file1:
             json.dump(schema, file1)
         print("Conversao feita com sucesso!")
 
