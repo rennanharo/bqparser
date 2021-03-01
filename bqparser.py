@@ -23,7 +23,6 @@ parser.add_argument(
     "-d", action="store_true", help="Pass the path to source files as dir"
 )
 
-
 args = parser.parse_args()
 
 if args.source_db == "Oracle":
@@ -95,8 +94,9 @@ if args.source_db == "Oracle":
                 }
                 for row in result
             ]
-
-            with open(f"example_outputs/{filename}.json", "w+") as file1:
+            if not os.path.exists("outputs"):
+                os.makedirs("outputs")
+            with open(f"outputs/{filename}.json", "w+") as file1:
                 json.dump(schema, file1)
             print("Conversao feita com sucesso!")
     else:
@@ -151,6 +151,8 @@ if args.source_db == "Oracle":
             "TIMESTAMP WITHLOCALTIMEZONE": "TIMESTAMP",
             "TIMESTAMP WITHTIMEZONE": "TIMESTAMP",
             "VARCHAR2": "STRING",
+            "VARCHAR": "STRING",
+            "INTEGER": "INTEGER",
         }
 
         schema = [
@@ -163,9 +165,11 @@ if args.source_db == "Oracle":
             for row in result
         ]
 
+        if not os.path.exists("outputs"):
+            os.makedirs("outputs")
         with open(f"outputs/{filename}.json", "w+") as file1:
             json.dump(schema, file1)
         print("Conversao feita com sucesso!")
 
-# TODO Receive dir as input with the -d flag
-# TODO Add output file to dir called Output Schemas
+
+# TODO Treat decimals with numeric (7,4)
