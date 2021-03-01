@@ -25,7 +25,7 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-if args.source_db == "Oracle":
+if args.source_db.lower() == "oracle":
     if args.d == True:
         for file in os.listdir(args.path_to_source):
             filename = os.fsdecode(file).split(".")[0]

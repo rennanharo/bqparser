@@ -2,9 +2,9 @@
 
 BQ Parser is a tool developed to help create BigQuery JSON shemas based on other RDBMS' schemas.
 
-## [Supported RDBMS](#supported-rdbms)
+## Supported RDMBS'
 
-:white_check_mark: Oracle
+Oracle :white_check_mark:
 
 ## Usage
 
@@ -17,4 +17,17 @@ BQ Parser is a tool developed to help create BigQuery JSON shemas based on other
   - path_to_source: The path to the source schema file to convert from
     - For specifying a directory contaning schema files, use de `-d` flag
   - source_db: Which RDBMS schema you're converting from
-    - Supported source RDBMS: [Check supported session](supported-rdbms)
+    - Supported source RDBMS: Oracle
+
+### Usage examples
+
+> Converting a TXT called `schema.txt` generated from Oracles' DESCRIBE method
+> `python bqparser.py ./schema.txt Oracle`
+
+## Future updates
+
+Adding support for different RDBMS'
+
+## Contributing
+
+Feel free to make a PR adding support to or suggesting any improvements to the current code. Let's build this together!
