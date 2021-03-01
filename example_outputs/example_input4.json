@@ -1,15 +1,27 @@
 [
   {
-    "name": "IDENT_ESTADO",
+    "name": "IDENT_UND_PADRAO",
     "description": "",
     "mode": "REQUIRED",
     "type": "NUMERIC"
   },
   {
-    "name": "COD_MUNICIPIO",
+    "name": "GRUPO_UND_PADRAO",
     "description": "",
-    "mode": "REQUIRED",
-    "type": "NUMERIC"
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "COD_UND_PADRAO",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "VALID_UND_PADRAO",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "DATE"
   },
   {
     "name": "DESCRICAO",
@@ -18,31 +30,19 @@
     "type": "STRING"
   },
   {
-    "name": "COD_UF",
+    "name": "NUM_PROCESSO",
     "description": "",
     "mode": "NULLABLE",
     "type": "NUMERIC"
   },
   {
-    "name": "COD_MUN_ESTADO",
+    "name": "IND_GRAVACAO",
     "description": "",
     "mode": "NULLABLE",
     "type": "STRING"
   },
   {
-    "name": "COD_AREA_LIVR_COM",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "STRING"
-  },
-  {
-    "name": "COD_MUNIC_DIPJ",
-    "description": "",
-    "mode": "NULLABLE",
-    "type": "NUMERIC"
-  },
-  {
-    "name": "DESCRICAO_IBGE",
+    "name": "IND_UNID_FRAC",
     "description": "",
     "mode": "NULLABLE",
     "type": "STRING"

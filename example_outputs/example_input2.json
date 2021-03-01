@@ -1,0 +1,50 @@
+[
+  {
+    "name": "COD_PAIS",
+    "description": "",
+    "mode": "REQUIRED",
+    "type": "STRING"
+  },
+  {
+    "name": "DESCRICAO",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "DESCR_NACION",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "COD_INDICE",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "DIG_VERIFICADOR",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "NUMERIC"
+  },
+  {
+    "name": "COD_PAIS_GIA_RS",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "IND_TRIBUT_FAVOREC",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "SIGLA_PAIS",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  }
+]

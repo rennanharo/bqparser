@@ -3,7 +3,7 @@
     "name": "IDENT_NBM",
     "description": "",
     "mode": "REQUIRED",
-    "type": "INTEGER"
+    "type": "NUMERIC"
   },
   {
     "name": "COD_NBM",
@@ -33,19 +33,19 @@
     "name": "ALIQ_IPI",
     "description": "",
     "mode": "NULLABLE",
-    "type": "INTEGER"
+    "type": "NUMERIC"
   },
   {
     "name": "IDENT_NOTA_TIPI",
     "description": "",
     "mode": "NULLABLE",
-    "type": "INTEGER"
+    "type": "NUMERIC"
   },
   {
     "name": "NUM_PROCESSO",
     "description": "",
     "mode": "NULLABLE",
-    "type": "INTEGER"
+    "type": "NUMERIC"
   },
   {
     "name": "IND_GRAVACAO",
@@ -57,7 +57,7 @@
     "name": "IDENT_MEDIDA",
     "description": "",
     "mode": "NULLABLE",
-    "type": "INTEGER"
+    "type": "NUMERIC"
   },
   {
     "name": "GRUPO_APURAC",
@@ -69,7 +69,7 @@
     "name": "IDENT_DARF",
     "description": "",
     "mode": "NULLABLE",
-    "type": "INTEGER"
+    "type": "NUMERIC"
   },
   {
     "name": "IND_INCIDENCIA",
