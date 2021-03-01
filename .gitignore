@@ -1,4 +1,4 @@
 .vscode 
 bqparser
 *.ipynb
-.DS_Store
+*.DS_Store
