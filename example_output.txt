@@ -1,0 +1,80 @@
+[
+  {
+    "name": "IDENT_NBM",
+    "description": "",
+    "mode": "REQUIRED",
+    "type": "INTEGER"
+  },
+  {
+    "name": "COD_NBM",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "VALID_NBM",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "DATE"
+  },
+  {
+    "name": "DESCRICAO",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "IND_TRIB_NBM",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "ALIQ_IPI",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "IDENT_NOTA_TIPI",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "NUM_PROCESSO",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "IND_GRAVACAO",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "IDENT_MEDIDA",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "GRUPO_APURAC",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "IDENT_DARF",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "IND_INCIDENCIA",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  }
+]

@@ -1,0 +1,10 @@
+Nome               Nulo?    Tipo         
+------------------ -------- ------------ 
+COD_PAIS           NOT NULL VARCHAR2(3)  
+DESCRICAO                   VARCHAR2(35) 
+DESCR_NACION                VARCHAR2(35) 
+COD_INDICE                  VARCHAR2(10) 
+DIG_VERIFICADOR             NUMBER(1)    
+COD_PAIS_GIA_RS             VARCHAR2(3)  
+IND_TRIBUT_FAVOREC          CHAR(1)      
+SIGLA_PAIS                  VARCHAR2(3)

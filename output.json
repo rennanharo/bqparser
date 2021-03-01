@@ -1,0 +1,50 @@
+[
+  {
+    "name": "IDENT_ESTADO",
+    "description": "",
+    "mode": "REQUIRED",
+    "type": "NUMERIC"
+  },
+  {
+    "name": "COD_MUNICIPIO",
+    "description": "",
+    "mode": "REQUIRED",
+    "type": "NUMERIC"
+  },
+  {
+    "name": "DESCRICAO",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "COD_UF",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "NUMERIC"
+  },
+  {
+    "name": "COD_MUN_ESTADO",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "COD_AREA_LIVR_COM",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "COD_MUNIC_DIPJ",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "NUMERIC"
+  },
+  {
+    "name": "DESCRICAO_IBGE",
+    "description": "",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  }
+]

@@ -1,0 +1,10 @@
+Nome             Nulo?    Tipo         
+---------------- -------- ------------ 
+IDENT_UND_PADRAO NOT NULL NUMBER(12)   
+GRUPO_UND_PADRAO          VARCHAR2(9)  
+COD_UND_PADRAO            VARCHAR2(8)  
+VALID_UND_PADRAO          DATE         
+DESCRICAO                 VARCHAR2(50) 
+NUM_PROCESSO              NUMBER(12)   
+IND_GRAVACAO              CHAR(1)      
+IND_UNID_FRAC             CHAR(1)
