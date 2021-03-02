@@ -19,7 +19,8 @@ Oracle :white_check_mark:
 - The script requires 2 **positional** arguments, being:
   - path_to_source: The path to the source schema file to convert from
     - For specifying a directory contaning schema files, use de `-d` flag
-  - source_db: Which RDBMS schema you're converting from - Supported source RDBMS: Oracle
+  - source_db: Which RDBMS schema you're converting from
+  - Supported source RDBMS: Oracle
     <br>
 
 ### Usage examples
