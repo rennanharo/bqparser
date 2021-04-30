@@ -5,7 +5,7 @@ BQ Parser is a tool developed to help create BigQuery JSON shemas based on other
 
 ## Supported RDMBS'
 
-Oracle :white_check_mark:
+Oracle
 <br>
 
 ## Usage
